@@ -1,0 +1,42 @@
+body{
+    font-family: Akronim;
+    background-color:rgb(112, 112, 112);
+}
+
+h2{
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(250, 142, 0));
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+p{
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(250, 142, 0));
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.main_div button{
+    width: 130px;
+    height: 70px;
+    font-size: 30px;
+    background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(250, 142, 0));
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+.copy_right_footer{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 35px;
+    background-image: -webkit-linear-gradient(rgb(255, 0, 0), rgb(255, 217, 0));
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}

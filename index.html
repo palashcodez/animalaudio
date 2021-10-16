@@ -1,0 +1,54 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+      <h2>Animal Audio</h2>
+      <hr width="800">
+      <p>Note: Play different sounds dog bark, bird chirp, to show images of the animals.
+      </p>
+    </div>
+    <div class="main_div">
+      <center>
+        <br>
+        <button class="btn btn-primary" onclick="startclassification()" width="150px">Start</button>
+        <h3 id="result_label">I can hear - </h3>
+        <h3 id="result_confidence">Accuracy - </h3>
+        <br>
+        <img id="cat" src="cat.png" width="150px" height="240px">
+        <img id="dog" src="dog.png" width="300px" height="240px">
+        <img id="frog" src="frog.png" width="300px" height="240px">
+        <img id="bird" src="bird.png" width="300px" height="240px">
+        <img id="hearing" src="hearing.png" width="250px" height="240px">
+      </center>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr width="400">
+    <div class="copy_right_footer">
+      Made by Palash
+    </div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
